@@ -1,5 +1,62 @@
-:root{
-    --primary-color:;
-    --secondary-color:;
+ :root{
+    --primary-color:hsl(223, 87%,63%);
+    --secondary-color:hsl(223, 100%, 88%);
+    --secondary-light-color:hsl(354,100%,66%);
+    --neutral-light-color: hsl(0, 0%, 59);
+    --neutral-dark-color: hsl(209, 33%, 12%);
+    --font-size:20px;
+    --fw-light:300;
+    --fw-bold:600;
+    --fw-bolder:700;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    
+} 
+
+h1{
+    font-weight: var(--fw-bolder);
+    line-height: 1.2;
+}
+
+h1 span {
+    font-weight: var(--fw-light);
+    color: var(--neutral-light-color);
     
 }
+
+.main{
+    max-width: 550px;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 10%;
+    height: 40%;
+}
+
+.main{
+    margin: 0 auto;
+}
+
+
+
+
+
