@@ -72,6 +72,9 @@ img{
 }
 
 
+input::placeholder{
+    color: var(--secondary-light-color);
+}
 
 
   .input{
