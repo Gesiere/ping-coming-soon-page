@@ -164,8 +164,8 @@ input::placeholder{
 
 
 
- 
-@media (max-width:575px){
+ /* mobile devices */
+@media (max-width:375px){
     .main{
         margin: 10px;
         padding: 50px;
